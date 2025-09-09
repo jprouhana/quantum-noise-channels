@@ -173,3 +173,4 @@ def channel_to_choi(kraus_ops):
         choi += np.outer(vec, vec.conj())
 
     return choi
+# TODO: add thermal relaxation channel
